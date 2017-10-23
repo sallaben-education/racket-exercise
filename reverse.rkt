@@ -3,7 +3,6 @@
 ;list reverse
 (define (reverse list1)
   (cond
-    [(empty? list1) empty]
     [(empty? (rest list1)) list1]
     [else (append (reverse (rest list1)) (list (first list1)))]))
 
