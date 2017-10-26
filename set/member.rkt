@@ -1,5 +1,6 @@
 #lang racket
 
+;set member
 (define (member obj1 set1)
   (cond
     [(empty? set1) #f]
@@ -13,4 +14,4 @@
 (member 6 (list 1 2 3))
 
 (displayln "member 1 '()")
-(member 6 empty)
+(member 1 empty)
