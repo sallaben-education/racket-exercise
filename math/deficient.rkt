@@ -1,5 +1,6 @@
 #lang racket
 
+;int deficient
 (define (deficient? num)
   (cond
     [(< (divsum num (- num 1)) num) #t]

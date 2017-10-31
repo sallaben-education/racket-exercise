@@ -1,5 +1,6 @@
 #lang racket
 
+;set superset
 (define (superset? set1 set2)
   (cond
     [(empty? set2) #t]

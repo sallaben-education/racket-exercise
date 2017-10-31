@@ -1,5 +1,6 @@
 #lang racket
 
+;math factorial
 (define (factorial num1)
   (cond
     [(equal? num1 0) 1]

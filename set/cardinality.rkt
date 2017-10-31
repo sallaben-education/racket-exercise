@@ -1,5 +1,6 @@
 #lang racket
 
+;set cardinality
 (define (cardinality set1)
   (cond
     [(empty? set1) 0]

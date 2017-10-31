@@ -1,5 +1,6 @@
 #lang racket
 
+;int abundant
 (define (abundant? num)
   (cond
     [(> (divsum num (- num 1)) num) #t]

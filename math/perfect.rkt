@@ -1,5 +1,6 @@
 #lang racket
 
+;int perfect
 (define (perfect? num)
   (cond
     [(equal? (divsum num (- num 1)) num) #t]
